@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    //aqui le decimos que todo nuestro codigo usara la version de ecmascript (javascript) 2018 en adelante
+    "ecmaVersion": 2018
+  },
+  //vamos a extender de la version recomendada de eslint y una configuracion compatible con prettier
+  "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    //decimos que usaremos ecmascript 6 y variables de entorno ecmascript 6
+    "es6": true,
+    //variables de entorno node
+    "node": true,
+    //variables de entorno mocha
+    "mocha": true
+  },
+  "rules": {
+    "no-console": "warn"
+  }
+}
